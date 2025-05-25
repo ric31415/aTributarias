@@ -15,11 +15,11 @@ st.title("Cálculo de áreas tributarias")
 st.sidebar.header("Discretización")
 dx = st.sidebar.number_input(
     "dx:", min_value=1e-4, max_value=1.0,
-    value=0.005, step=0.001, format="%.4f"
+    value=0.01, step=0.001, format="%.4f"
 )
 dy = st.sidebar.number_input(
     "dy:", min_value=1e-4, max_value=1.0,
-    value=0.005, step=0.001, format="%.4f"
+    value=0.01, step=0.001, format="%.4f"
 )
 
 # --- Entrada de Vértices ---
